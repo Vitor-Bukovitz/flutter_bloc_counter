@@ -1,6 +1,10 @@
-# flutter_counter
+# flutter_bloc_counter
 
-A new Flutter project.
+A counter made with Bloc Pattern.
+
+## Preview
+
+![Screenshot](https://github.com/Vitor-Bukovitz/flutter_bloc_counter/screenshot.png)
 
 ## Getting Started
 
