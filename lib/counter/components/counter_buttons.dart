@@ -16,13 +16,13 @@ class CounterButtons extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               FlatButton(
-                onPressed: () => context.bloc<CounterCubit>().reset(),
+                onPressed: () => context.read<CounterCubit>().reset(),
                 child: Text(
                   'Reset',
                 ),
               ),
               FlatButton(
-                onPressed: () => context.bloc<CounterCubit>().decrement(),
+                onPressed: () => context.read<CounterCubit>().decrement(),
                 child: Text(
                   'Remove People',
                 ),
@@ -32,7 +32,7 @@ class CounterButtons extends StatelessWidget {
           Container(
             width: size.width * 0.8,
             child: RaisedButton(
-              onPressed: () => context.bloc<CounterCubit>().increment(),
+              onPressed: () => context.read<CounterCubit>().increment(),
               padding: EdgeInsets.all(18),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(8),
