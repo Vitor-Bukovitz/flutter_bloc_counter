@@ -4,7 +4,7 @@ A counter made with Bloc Pattern.
 
 ## Preview
 
-![Screenshot](https://github.com/Vitor-Bukovitz/flutter_bloc_counter/blob/master/screenshot.png)
+<a href="https://ibb.co/K2f7HtW"><img src="https://github.com/Vitor-Bukovitz/flutter_bloc_counter/blob/master/screenshot.png" alt="merge-from-ofoct" border="0" width="400"></a>
 
 ## Getting Started
 
